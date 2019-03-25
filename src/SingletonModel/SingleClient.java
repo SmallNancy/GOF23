@@ -1,3 +1,5 @@
+package SingletonModel;
+
 import java.lang.reflect.Constructor;
 
 /**
@@ -17,7 +19,7 @@ public class SingleClient {
         /**
          * 通过反射破坏单例
          */
-        Class<Singleton3> clazz = (Class<Singleton3>)Class.forName("Singleton3");
+        Class<Singleton3> clazz = (Class<Singleton3>)Class.forName("SingletonModel.Singleton3");
         Constructor<Singleton3> c = clazz.getDeclaredConstructor(null);           //调用无参构造器
         c.setAccessible(true);               // 设置可修改
         Singleton3 s3 = c.newInstance();

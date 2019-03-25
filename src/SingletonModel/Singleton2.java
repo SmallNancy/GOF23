@@ -1,3 +1,5 @@
+package SingletonModel;
+
 /**
  * @Author: Nancy
  * @Date: 2019/3/25 10:10
