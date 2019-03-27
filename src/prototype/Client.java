@@ -12,13 +12,14 @@ public class Client {
     public static void main(String[] args) throws CloneNotSupportedException {
         Date date = new Date(2546656545L);
         Sheep s1 = new Sheep("母羊",date);
+        Sheep s2 = (Sheep) s1.clone();
         System.out.println(s1);
         System.out.println(s1.getName() + " " + s1.getDate());
-        s1.setName("大羊");
+        s1.setDate(new Date(451254545L));
         System.out.println(s1.getName() + " " + s1.getDate());
 
 
-        Sheep s2 = (Sheep) s1.clone();
+
         System.out.println(s2);
         System.out.println(s2.getName() + " " + s2.getDate());
     }
