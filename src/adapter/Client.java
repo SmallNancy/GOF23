@@ -7,10 +7,6 @@ package adapter;
  * 适配器模型  ：target 接口，适配器，被适配者，
  */
 public class Client {
-    public static void test(Target t){
-        t.dealRequest();
-    }
-
     public static void main(String[] args) {
         Client c = new Client();
         Target adapter = new Adapter();
