@@ -1,7 +1,7 @@
 # GOF23
 23种设计模式详解
 #### 创建型模式
-- 单例模式 </br>
+- 单例模式</br>
 [单例模式](https://github.com/SmallNancy/GOF23/tree/master/src/SingletonModel)
 -工厂模式（简单工厂、工厂方法、抽象工厂）</br>
 [工厂模式](https://github.com/SmallNancy/GOF23/tree/master/src/Factory)
