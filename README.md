@@ -17,5 +17,7 @@
 [动态代理模式](https://github.com/SmallNancy/GOF23/tree/master/src/dynamisProxy)
 - 原型模式</br>
 [原型模式](https://github.com/SmallNancy/GOF23/tree/master/src/prototype)
-- 桥接模式
-- 组合模式
+- 桥接模式</br>
+[桥接模式](https://github.com/SmallNancy/GOF23/tree/master/src/bridge)
+- 组合模式</br>
+[组合模式](https://github.com/SmallNancy/GOF23/tree/master/src/composite)
