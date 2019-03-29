@@ -21,3 +21,5 @@
 [桥接模式](https://github.com/SmallNancy/GOF23/tree/master/src/bridge)
 - 组合模式</br>
 [组合模式](https://github.com/SmallNancy/GOF23/tree/master/src/composite)
+- 装饰器模式
+[装饰器模式](https://github.com/SmallNancy/GOF23/tree/master/src/decorate)
